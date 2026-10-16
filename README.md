@@ -5,7 +5,7 @@ PNG previews, and JSON, with support for custom thread palettes.
 
 No account or API key is needed. Once installed, conversion runs offline.
 
-**Prefer a browser? [Try PetCrossStitch — free pet-photo previews](https://petcrossstitch.us.ci/).**
+**Prefer a browser? [Try PetCrossStitch — free pet-photo previews](https://petcrossstitch.us.ci/?utm_source=github&utm_medium=referral&utm_campaign=github_cli_20261016&utm_content=readme_hero).**
 Upload your pet photo and compare Easy, Balanced, and Detailed previews. Full pattern
 downloads are paid; the CLI below remains free to run locally.
 
@@ -37,7 +37,7 @@ Reproduce the CLI result after installation:
 
 [Input provenance, asset permissions, and reproduction notes](examples/beagle/README.md).
 
-[Try your own pet photo in PetCrossStitch →](https://petcrossstitch.us.ci/)
+[Try your own pet photo in PetCrossStitch →](https://petcrossstitch.us.ci/?utm_source=github&utm_medium=referral&utm_campaign=github_cli_20261016&utm_content=readme_case)
 
 ## What you can do
 
@@ -173,7 +173,7 @@ pet-specific detail protection, confetti cleanup, backstitch, or automatic detai
   labels are shortened. JSON preserves the original Unicode text.
 - Exported images are rebuilt without source photo metadata; JSON omits input paths.
 
-For a hosted pet-photo workflow, see [PetCrossStitch by trifun](https://petcrossstitch.us.ci/).
+For a hosted pet-photo workflow, see [PetCrossStitch by trifun](https://petcrossstitch.us.ci/?utm_source=github&utm_medium=referral&utm_campaign=github_cli_20261016&utm_content=readme_footer).
 This repository contains the basic CLI; the hosted website and its pet-specific
 processing are maintained separately. You do not need the website to use this CLI.
 
