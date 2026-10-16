@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools==80.9.0", "wheel==0.45.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trifun-stitch-cli"
+version = "0.1.0rc2"
+description = "Offline basic image-to-cross-stitch CLI by trifun"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+license-files = ["LICENSE", "licenses/*"]
+authors = [{name = "trifun"}]
+dependencies = ["Pillow==12.1.0", "fpdf2==2.8.5"]
+
+[project.scripts]
+trifun-stitch = "trifun_stitch.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

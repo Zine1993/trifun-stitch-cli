@@ -1,0 +1,9 @@
+{
+  "brand": "trifun synthetic reference (not DMC)",
+  "colors": [
+    {"code": "ref-dark", "name": "Dark reference", "rgb": [25, 30, 40]},
+    {"code": "ref-light", "name": "Light reference", "rgb": [245, 240, 225]},
+    {"code": "ref-rust", "name": "Rust reference", "rgb": [180, 70, 45]},
+    {"code": "ref-teal", "name": "Teal reference", "rgb": [35, 125, 120]}
+  ]
+}

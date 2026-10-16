@@ -1,0 +1,19 @@
+XStitchLab source declaration and context
+
+Upstream: https://github.com/tomekhotdog/XStitchLab
+Verified public main commit: c3d9c3f5252084dfd541f5eef72bad0607829f5a
+Original declaration: README.md, final section "Licence": MIT
+Permanent link:
+https://github.com/tomekhotdog/XStitchLab/blob/c3d9c3f5252084dfd541f5eef72bad0607829f5a/README.md
+
+No LICENSE file exists in that upstream tree. GitHub's null detected license
+field is not evidence that the README declaration does not exist.
+The private fork later supplied a license file with a 2024 copyright line;
+that line was not supplied by the upstream README and is not reproduced here
+as an authenticated upstream copyright notice or a new license grant.
+
+This candidate is a separately assembled generic implementation in the same
+project context. It contains no copied XStitchLab source modules, model files,
+thread database, or design assets. See PROVENANCE.md for the file inventory.
+No clean-room process, ownership of upstream work, or upstream endorsement is claimed.
+Candidate code is licensed separately under its root LICENSE (MIT / trifun).
