@@ -10,36 +10,34 @@ Upload your pet photo and compare Easy, Balanced, and Detailed previews. Full pa
 downloads are paid; the CLI below remains free to run locally.
 
 
-## A real pet photo, two workflows
+## Beagle conversion example
 
-The same cropped photo is used for both tools, with the background preserved.
+![Beagle input, actual CLI output, and actual local website-engine Balanced preview](examples/beagle/comparison.png)
 
-| Photo input | Basic CLI: 80 × 105, 16 RGB colors |
-| --- | --- |
-| ![Real black cat photo, fixed crop](examples/black-cat/source.jpg) | ![Actual basic CLI preview, 8400 stitches](examples/black-cat/cli-preview.png) |
+<sub>The input image was AI-generated; the charts are actual program outputs. Example by trifun.</sub>
 
-The CLI produces **8,400 stitches** with manually chosen size and color settings.
-It uses RGB reference colors here, not a manufacturer thread palette.
-
-The hosted website generated these three previews from that exact input:
-
-| Easy | Balanced | Detailed |
+| | Basic CLI | PetCrossStitch engine: Balanced |
 | --- | --- | --- |
-| ![Actual website Easy preview](examples/black-cat/website-easy.png) | ![Actual website Balanced preview](examples/black-cat/website-balanced.png) | ![Actual website Detailed preview](examples/black-cat/website-detailed.png) |
-| 6,767 stitches · 12 DMC colors | 16,461 stitches · 25 DMC colors | 29,203 stitches · 33 DMC colors |
+| Stitches | 7,920 | 3,152 |
+| Colors | 16 RGB reference colors | 12 DMC colors |
+| Background | White background stitched | Background removed |
 
-These are actual digital outputs, not finished embroidery. The CLI and website use
-**different grid sizes, color budgets, and palettes**; this is a workflow example,
-not an equal-settings quality benchmark. This dark cat and busy background are a
-challenging input: low-detail output can lose eyes and facial definition. Inspect
-the previews before buying thread or a full pattern.
+The website-engine preview was generated locally using the current project code.
+It is a digital preview, not finished embroidery. These workflows use different
+grid sizes, palettes, and background handling; the table is not a comparison under
+equal settings. Actual results depend on your input. Check your own free preview
+before purchasing a full pattern.
 
-Photo: [Black cat in the wild.jpg](https://commons.wikimedia.org/wiki/File:Black_cat_in_the_wild.jpg)
-by IrazuLibertad, [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
-We applied one fixed crop and removed embedded metadata; both tools received the
-same resulting file. [Source, crop, metrics, and reproduction steps](examples/black-cat/README.md).
+Reproduce the CLI result after installation:
 
-[Compare previews using your own pet photo →](https://petcrossstitch.us.ci/)
+```sh
+.venv/bin/trifun-stitch convert examples/beagle/input.jpg \
+  --size 80 --colors 16 --output beagle-pattern
+```
+
+[Input provenance, asset permissions, and reproduction notes](examples/beagle/README.md).
+
+[Try your own pet photo in PetCrossStitch →](https://petcrossstitch.us.ci/)
 
 ## What you can do
 

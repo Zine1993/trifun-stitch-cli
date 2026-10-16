@@ -1,8 +1,8 @@
 # Third-party dependencies
 
 This is a Python source distribution. No dependency source, binary, font file, model,
-thread database is vendored. The CC0 photograph in `examples/black-cat/`
-is separately credited in that folder; it is not covered by the code MIT notice. Exact tested versions and hashes
+thread database is vendored. The AI-generated example assets in `examples/beagle/` have separate CC0 permissions
+and provenance recorded in that folder; they are not covered by the code MIT notice. Exact tested versions and hashes
 are in `requirements.lock`. Install dependencies separately from their upstream distributions.
 
 | Package | Tested version | Role | License / official source |

@@ -27,20 +27,22 @@ is issued or changed by this candidate.
   `XStitchLab-PROVENANCE.txt`, a factual source-declaration note assembled by trifun.
 - `README.md`, `THIRD_PARTY.md`, packaging files: candidate documentation/configuration.
 
-## Real pet example added 2026-10-16
+## AI-generated beagle example
 
-`examples/black-cat/source.jpg` is a metadata-free fixed crop of IrazuLibertad's
-CC0 photograph, not a first-party synthetic image or a user upload. Its source,
-license and crop coordinates are recorded in that folder's README and metrics.
-CLI and website previews are separately labeled actual generated outputs, offered
-under CC0 to the extent trifun holds rights in them; the photo's CC0 status remains.
-This asset exception does not introduce a DMC database or website source module.
+`examples/beagle/input.jpg` is a crop of a text-only AI generation made for trifun
+on 2026-09-22. Its original output, intermediate copy, normalization and final crop
+were verified against retained records on 2026-10-16. See the example README for
+hashes, processing steps and AI disclosure. It is not a real pet photograph.
+The example assets are offered under CC0 1.0 to the extent trifun holds rights;
+this does not assert exclusive copyright in AI output. The website-engine image
+is an actual locally generated preview only; no website code or thread database
+is distributed with it.
 
 ## Excluded
 
 No website generation pipeline, pet protection/cleanup/recomposition strategy, tier
 planner, production frontend, account/payment code, cloud configuration, database,
-session key, environment file, Git history, customer photo, marketing asset, DMC table,
+session key, environment file, Git history, customer photo, unrelated marketing asset, DMC table,
 ML weights, or private regression result is included.
 
 ## Historical grants and release boundary

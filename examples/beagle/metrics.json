@@ -1,0 +1,22 @@
+{
+  "review_only": true,
+  "public_repo_updated": false,
+  "production_contacted": false,
+  "source_kind": "AI-generated text-only output",
+  "original_generation_date": "2026-09-22",
+  "input_sha256": "f2d36162595854df1ec59e391ff15ac6ef3c9a48f82a486d70a003017cc7efca",
+  "cli": {
+    "width": 80,
+    "height": 99,
+    "stitches": 7920,
+    "colors": 16,
+    "palette": "RGB"
+  },
+  "website_engine": {
+    "location": "local",
+    "tier": "balanced",
+    "stitches": 3152,
+    "colors": 12,
+    "background_mode": "remove"
+  }
+}
