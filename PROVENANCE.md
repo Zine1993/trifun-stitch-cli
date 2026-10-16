@@ -27,6 +27,15 @@ is issued or changed by this candidate.
   `XStitchLab-PROVENANCE.txt`, a factual source-declaration note assembled by trifun.
 - `README.md`, `THIRD_PARTY.md`, packaging files: candidate documentation/configuration.
 
+## Real pet example added 2026-10-16
+
+`examples/black-cat/source.jpg` is a metadata-free fixed crop of IrazuLibertad's
+CC0 photograph, not a first-party synthetic image or a user upload. Its source,
+license and crop coordinates are recorded in that folder's README and metrics.
+CLI and website previews are separately labeled actual generated outputs, offered
+under CC0 to the extent trifun holds rights in them; the photo's CC0 status remains.
+This asset exception does not introduce a DMC database or website source module.
+
 ## Excluded
 
 No website generation pipeline, pet protection/cleanup/recomposition strategy, tier

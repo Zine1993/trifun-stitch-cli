@@ -1,4 +1,4 @@
 include README.md LICENSE PROVENANCE.md THIRD_PARTY.md requirements.lock
 recursive-include licenses *
-recursive-include examples *.png *.json
+recursive-include examples *.png *.jpg *.json *.md
 recursive-include tests *.py
